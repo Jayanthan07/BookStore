@@ -1,0 +1,38 @@
+.container{
+        display: grid;
+    grid-area: "50% 50%";
+    grid-template-areas: "selection cart";
+}
+.selection{
+    display: flex;
+    flex-flow: column;
+    border: 2px solid #7373c1;
+    padding: 20px;
+    margin-right: 2px;
+    justify-content: space-between;
+}
+.formControl{
+    border: 1px solid #4a639b;
+    border-radius: 10px;
+    align-self: center;
+    padding: 10px;
+    margin-bottom: 16px;
+}
+.formControl:hover{
+    background-color:#4a639b;
+    color:white;
+    border: 1px solid #4a639b;
+    border-radius: 10px;
+    align-self: center;
+    padding: 10px;  
+    cursor: pointer;
+}
+.header{
+    height: 50px;
+    background-color: #78a3df;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
